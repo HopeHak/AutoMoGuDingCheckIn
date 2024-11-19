@@ -1,17 +1,17 @@
 {
   "config": {
     "user": {
-      "phone": "工学云手机号",
-      "password": "工学云密码"
+      "phone": "17793061232",
+      "password": "qq.123QQ."
     },
     "clockIn": {
       "location": {
-        "address": "四川省 · 成都市 · 高新区 · 在科创十一街附近",
-        "latitude": "34.059922",
-        "longitude": "118.277435",
-        "province": "四川省",
-        "city": "成都市",
-        "area": "高新区"
+        "address": "山东省 · 淄博市 · 高青县 · 在高青县附近",
+        "latitude": "37.170899",
+        "longitude": "117.826373",
+        "province": "山东省",
+        "city": "淄博市",
+        "area": "高青县"
       },
       "imageCount": 0,
       "description": [
@@ -22,17 +22,17 @@
     },
     "reportSettings": {
       "daily": {
-        "enabled": false,
-        "imageCount": 0
+        "enabled": true,
+        "imageCount": 1
       },
       "weekly": {
         "enabled": true,
-        "imageCount": 0,
+        "imageCount": 1,
         "submitTime": 4
       },
       "monthly": {
         "enabled": false,
-        "imageCount": 0,
+        "imageCount": 1,
         "submitTime": 29
       }
     },
@@ -50,11 +50,11 @@
       {
         "type": "PushPlus",
         "enabled": true,
-        "token": "your_token"
+        "token": "41811c1da0dd46e7a3c2433bb13960f4"
       },
       {
         "type": "AnPush",
-        "enabled": true,
+        "enabled": false,
         "token": "your_token",
         "channel": "通道ID,多个用英文逗号隔开",
         "to": "根据官方文档获取"
@@ -62,7 +62,7 @@
       {
         "type": "WxPusher",
         "enabled": true,
-        "spt": "your_spt"
+        "spt": "SPT_B9Obln0fgO8PLJZf6mBBxZhFpta0"
       },
       {
         "type": "SMTP",
@@ -75,6 +75,6 @@
         "to": "收件人邮箱"
       }
     ],
-    "device": "{brand: TA J20, systemVersion: 17, Platform: Android, isPhysicalDevice: true, incremental: K23V10A}"
+    "device": "{brand: realme RMX3852, systemVersion: 14, Platform: Android, isPhysicalDevice: true, incremental: U.18b8732-1-2c0b4}"
   }
 }
